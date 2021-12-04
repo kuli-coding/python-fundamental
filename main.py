@@ -23,5 +23,5 @@ else:
     print("Budi does not buy one  milk bottle")
 
 print("andi go to home")
-print("andi convey the result to mother ")
+print("andi submit the result to mother ")
  
