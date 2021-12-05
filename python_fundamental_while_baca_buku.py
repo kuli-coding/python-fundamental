@@ -8,6 +8,9 @@ print(f'number of books read {number_of_books_read}')
 
 while number_of_books_read < number_of_book:
     number_of_books_read = number_of_books_read + 1
-print(f'book to {number_of_books_read} has read')
+    print(f"book to {number_of_books_read} has read")
+
+print(f'number of books read {number_of_books_read}')
+
 
 
