@@ -25,6 +25,7 @@ book_list.append('blink')
 for i in range(0, len(book_list)):
     print(book_list[i])
 
+
 print('\nClear list')
 book_list.clear()
 for i in range(0, len(book_list)):
@@ -58,3 +59,4 @@ book_list = ['atomic habbit', 'who the hell are you', 'outlier', 'The leadership
 book_list.pop(0)
 for i in range(0, len(book_list)):
     print(book_list[i])
+
