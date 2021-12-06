@@ -25,7 +25,6 @@ book_list.append('blink')
 for i in range(0, len(book_list)):
     print(book_list[i])
 
-
 print('\nClear list')
 book_list.clear()
 for i in range(0, len(book_list)):
@@ -59,4 +58,20 @@ book_list = ['atomic habbit', 'who the hell are you', 'outlier', 'The leadership
 book_list.pop(0)
 for i in range(0, len(book_list)):
     print(book_list[i])
-print("HII")
+
+print('\nOrdered delete')
+book_list = ['atomic habbit', 'who the hell are you', 'outlier', 'The leadership handbook']
+del book_list[0]
+for i in range(0, len(book_list)):
+    print(book_list[i])
+print('\nOrdered delete with list comprehensive')
+book_list = ['atomic habbit', 'who the hell are you', 'outlier', 'The leadership handbook']
+del book_list[:2]
+for i in range(0, len(book_list)):
+    print(book_list[i])
+
+print('\nOrdered delete with list comprehensive start')
+book_list = ['atomic habbit', 'who the hell are you', 'outlier', 'The leadership handbook']
+del book_list[::2]  # start:end
+for i in range(0, len(book_list)):
+    print(book_list[i])
