@@ -12,3 +12,4 @@ print(users['name'])
 print(users['username'])
 print(users['email'])
 
+print("hi")
